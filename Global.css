@@ -1,0 +1,131 @@
+.carousel {
+    width: 100%;
+    overflow:hidden;
+    margin: 0%;
+    padding: 0%;
+}
+.carousel .carousel-inner {
+    height:100%;    
+}
+.carousel .carousel-inner img {
+    display:block;
+    object-fit: cover;
+}
+
+.carousel_slide {
+    padding: 0% 0% 2% 0% !important;
+}
+
+.img-left-96d{
+    float: left !important;
+    width: 96% !important;
+    margin: 1% 1% !important;
+}
+
+.width-50d{
+    width: 45%;
+    margin: 1% 1% ;
+}
+.size-22px{
+    font-size: 22px;
+}
+.size-small{
+    font-size: small;
+}
+.size-xxxlarge{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.size-xlarge{
+    font-size: x-large;
+    text-align: center;
+}
+
+.width-100dmp{
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+.width-25dmp{
+    width: 25%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.div-inline{
+    display: inline;
+}
+
+.main .main-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-flex .main-flex-box{
+      width: 250px;
+      height: auto;
+      margin:24px;
+      border-radius: 30px;
+
+}
+
+.main-flex-box img{
+    display: block;
+    width: 250px;
+    height: 207px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
