@@ -44,13 +44,16 @@
 
 .width-100dmp{
     width: 50%;
+    height: 50px;
     margin: 0%;
     padding: 0%;
 }
 .width-25dmp{
     width: 25%;
+    height: 50px;
     margin: 0%;
     padding: 0%;
+    display: flex;
 }
 
 .div-inline{
